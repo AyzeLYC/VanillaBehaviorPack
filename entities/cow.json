@@ -1,0 +1,29 @@
+{
+  "format": "1.0.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:cow",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 1.4,
+        "length": 1.5
+      },
+      "minecraft:physics": {
+        "has_collision": true,
+        "has_gravity": true
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 0
+          },
+          "event": "events/entities/hit_event.molang"
+        }
+      }
+    }
+  }
+}
