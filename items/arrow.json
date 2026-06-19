@@ -4,6 +4,11 @@
     "description": {
       "identifier": "minecraft:arrow",
       "custom": false
+    },
+    "components": {
+      "minecraft:entity": {
+        "entity": "minecraft:arrow"
+      }
     }
   }
 }
